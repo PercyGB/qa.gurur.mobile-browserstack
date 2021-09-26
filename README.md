@@ -29,7 +29,7 @@
 gradle clean test
 ```
 
-### Allure отчет для отображения результатов тестирования </br>
+### Allure отчет для отображения результатов тестирования
 #### Общая информация
 ![image](images/allure-report-overview.png)
 #### Список тестов c описанием шагов и визуализацией результатов
@@ -38,17 +38,9 @@ gradle clean test
 ### Пример запуска теста в BrowserStack
 ![video](https://github.com/PercyGB/qa.guru.mobile-browsestack/blob/master/images/browserstack-video.gif)
 
-### Интеграция с Allure TestOps </br>
-![image](images/allure-testops-test-types.png)
-![image](images/allure-testops-visualization.png)
-
-### Интеграция с Jira </br>
-![image](images/allure-testops-issue.png)
-![image](images/allure-testops-launch.png)
+### Интеграция с Allure TestOps и Jira </br>
+![image](images/allure-testops-tests.png)
 ![image](images/jira.png)
-
-### Уведомления в telegram о результатах теста </br>
-![image](images/telegram-notification.png)
 
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
