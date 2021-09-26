@@ -36,7 +36,7 @@ gradle clean test
 ![image](images/allure-report-behavior.png)
 
 ### Пример запуска теста в BrowserStack
-![video](https://github.com/PercyGB/qa.guru.mobile-browsestack/blob/master/images/browserstack-video.gif)
+![video](https://github.com/PercyGB/qa.gurur.mobile-browserstack/blob/master/images/browserstack-video.gif)
 
 ### Интеграция с Allure TestOps и Jira </br>
 ![image](images/allure-testops-tests.png)
