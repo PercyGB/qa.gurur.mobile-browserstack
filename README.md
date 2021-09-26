@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования мобильного приложения Wikipedia (Android)
 
-### Используемые технологии и инструменыт:
+### Используемые технологии и инструменты:
 <p align="left">
 <img height="40" width="40" src="images/java-logo.svg" alt="java">
 <img height="40" width="40" src="images/gradle-logo.svg" alt="gradle">
@@ -35,15 +35,10 @@ gradle clean test
 #### Список тестов c описанием шагов и визуализацией результатов
 ![image](images/allure-report-behavior.png)
 
-### Пример запуска теста на Selenoid </br>
-![video](https://github.com/PercyGB/qa.guru.sberbank-tests/blob/master/images/selenoid-video.gif)
+### Пример запуска теста в BrowserStack
+![video](https://github.com/PercyGB/qa.guru.mobile-browsestack/blob/master/images/browserstack-video.gif)
 
 ### Интеграция с Allure TestOps </br>
-#### Dashboard-ы
-![image](images/allure-testops-overview.png)
-![image](images/allure-testops-automation.png)
-![image](images/allure-testops-team.png)
-#### Тест-кейсы
 ![image](images/allure-testops-test-types.png)
 ![image](images/allure-testops-visualization.png)
 

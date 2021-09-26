@@ -1,5 +1,7 @@
 package tests;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import io.appium.java_client.MobileBy;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,6 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class BrowserStackAndroidSelenideTests extends TestBase {
     @Test
     @DisplayName("Successful search in wikipedia android app")
+    @JiraIssues({@JiraIssue("HOM-237")})
     void searchTest() {
         step("Type search", () -> {
             $(MobileBy.AccessibilityId("Search Wikipedia")).click();
@@ -26,6 +29,7 @@ public class BrowserStackAndroidSelenideTests extends TestBase {
 
     @Test
     @DisplayName("Successful navigation to GitHub article")
+    @JiraIssues({@JiraIssue("HOM-237")})
     void searchGitHubTest() {
         step("Type github", () -> {
             $(MobileBy.AccessibilityId("Search Wikipedia")).click();
@@ -43,6 +47,7 @@ public class BrowserStackAndroidSelenideTests extends TestBase {
 
     @Test
     @DisplayName("Check Login option at menu")
+    @JiraIssues({@JiraIssue("HOM-237")})
     void loginOptionCheck() {
         step("Wait while Wikipedia is opened", () ->
             $(MobileBy.AccessibilityId("Search Wikipedia")).shouldBe(visible));
