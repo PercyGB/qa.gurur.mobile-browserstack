@@ -11,11 +11,12 @@ import static org.aeonbits.owner.Config.LoadType.MERGE;
 })
 
 public interface BrowserStack extends Config {
-
     @Key("browserstack.user")
     String getBrowserStackUser();
 
     @Key("browserstack.key")
     String getBrowserStackKey();
 
+    @Key("browserstack.url")
+    String getBrowserStackURL();
 }
